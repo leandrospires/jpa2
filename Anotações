@@ -1,0 +1,7 @@
+http://localhost:8080/projeto-jpa-2
+
+<form action="${spring:mvcUrl('cadastraProduto').build()}" method="post">
+<form action="/projeto-jpa-2/cadastraPoduto" method="post">
+
+
+<form:form action= "${s:mvcUrl('PC#cadastraProduto').build()}" method="POST">
